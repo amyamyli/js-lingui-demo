@@ -1,0 +1,1 @@
+module.exports={languageData:{"plurals":function(n,ord){if(ord)return n==1?"one":"other";return n>=0&&n<2?"one":"other"}},messages:{"Welcome to React":"Welcome to React","Github":"Github","Docs":"Docs","Today is {curDate,date}.":function(a){return["Today is ",a("curDate","date"),"."]}}};

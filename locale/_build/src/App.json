@@ -1,0 +1,34 @@
+{
+  "Welcome to React": {
+    "origin": [
+      [
+        "src/App.js",
+        14
+      ]
+    ]
+  },
+  "Github": {
+    "origin": [
+      [
+        "src/App.js",
+        19
+      ]
+    ]
+  },
+  "Docs": {
+    "origin": [
+      [
+        "src/App.js",
+        20
+      ]
+    ]
+  },
+  "Today is {curDate,date}.": {
+    "origin": [
+      [
+        "src/App.js",
+        23
+      ]
+    ]
+  }
+}

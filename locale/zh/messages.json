@@ -1,0 +1,38 @@
+{
+  "Welcome to React": {
+    "translation": "欢迎使用react",
+    "origin": [
+      [
+        "src/App.js",
+        14
+      ]
+    ]
+  },
+  "Github": {
+    "translation": "",
+    "origin": [
+      [
+        "src/App.js",
+        19
+      ]
+    ]
+  },
+  "Docs": {
+    "translation": "文档",
+    "origin": [
+      [
+        "src/App.js",
+        20
+      ]
+    ]
+  },
+  "Today is {curDate,date}.": {
+    "translation": "今天是{curDate,date}.",
+    "origin": [
+      [
+        "src/App.js",
+        23
+      ]
+    ]
+  }
+}

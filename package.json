@@ -1,0 +1,40 @@
+{
+  "name": "js-lingui-demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@lingui/loader": "^2.0.7",
+    "@lingui/react": "^2.0.7",
+    "@lingui/babel-preset-react": "^2.0.7",
+    "@lingui/cli": "2.0.1",
+    "cross-env": "^5.1.5",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start --env=development",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lingui": "cross-env NODE_ENV=development lingui"
+  },
+   "babel": {
+    "presets": [
+      "react-app",
+      "@lingui/babel-preset-react"
+    ]
+  },
+  "lingui": {
+    "fallbackLocale": "en",
+    "sourceLocale": "en",
+    "localeDir": "<rootDir>/locale",
+    "srcPathDirs": [
+        "<rootDir>"
+    ],
+    "srcPathIgnorePatterns": [
+        "/node_modules/"
+    ],
+    "format": "lingui"
+  }
+}
